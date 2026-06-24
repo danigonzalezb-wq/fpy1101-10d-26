@@ -23,7 +23,7 @@ def op_menu():
 
 
 def agregar_consola(lista_consola):
-    sigla=input("Agrege la sigla de la consola: ")
+    sigla=input("Agrege la sigla de la consola: ").strip().lower().capitalize()
     nombre=input("Ingrese el nombre de la consola: ")
     fabricante=input("Ingrese el fabricante: ")
     año_lanzamiento=int("ingrese el año de fabricacion: ")
@@ -32,6 +32,19 @@ def agregar_consola(lista_consola):
 
     if len(sigla.strip())>2 or len(sigla.strip())<5:
         print("h")
+
+
+    if nombre == False:
+        print("El nombre no puede estar vacio")
+        return
+    
+    
+    if fabricante == False:
+        print("El fabricante no puede estar vacio")
+        return
+    
+    lista_consola.append()
+    
 
 
 while True:
