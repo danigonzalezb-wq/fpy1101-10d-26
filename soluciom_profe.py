@@ -149,7 +149,7 @@ def eliminar_consola(consolas, ventas):
         print("eliminacion cancelada")
 
 
-
+#principal
 
 while True:
     menu()
