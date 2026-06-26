@@ -146,7 +146,7 @@ def eliminar_consola(consolas, ventas):
         del ventas[sigla]
         print("eliminado exirosamente")
     else:
-        print("consola no encontrada")
+        print("eliminacion cancelada")
 
 
 
